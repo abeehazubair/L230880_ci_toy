@@ -2,7 +2,7 @@
 
 
 def add(a, b):
-    return a - b          # deliberate bug -> the first CI run must be RED
+    return a + b          # bug fixed -> CI turns GREEN
 
 
 def mean(values):
